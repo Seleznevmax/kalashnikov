@@ -1,0 +1,51 @@
+
+#products {
+}
+#products .next, #products .prev {
+    display: block;
+    height: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 21px;
+    position: absolute;
+    top: 127px;
+    width: 21px;
+    z-index: 101;
+}
+#products .prev {
+    background: rgba(0, 0, 0, 0) url("../img/arrow-prev.png") repeat scroll 0 0;
+}
+#products .next {
+    background: rgba(0, 0, 0, 0) url("../img/arrow-next.png") repeat scroll 0 0;
+    left: 398px;
+}
+#products .slides_container {
+    float: right;
+    height: 595px;
+    overflow: hidden;
+    position: relative;
+    width: 405px;
+}
+#products .pagination {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 70px;
+}
+#products .pagination li {
+    height: 90px;
+    list-style: outside none none;
+    margin: 0;
+    width: 65px;
+}
+#products .pagination li a {
+    background: #f9f9f9 none repeat scroll 0 0;
+    display: block;
+    float: left;
+    height: 90px;
+    margin: 0 0 5px;
+    width: 61px;
+}
+#products .pagination li.current a {
+    margin: 0 0 5px;
+}

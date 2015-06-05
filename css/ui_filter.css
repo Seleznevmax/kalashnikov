@@ -1,0 +1,47 @@
+.ui-slider {
+    position: relative;
+}
+.ui-slider .ui-slider-handle {
+    background: rgba(0, 0, 0, 0) url("../img/f_circle.png") no-repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    height: 19px;
+    position: absolute;
+    width: 19px;
+    z-index: 2;
+}
+.ui-slider .ui-slider-range {
+    border: 0 none;
+    display: block;
+    font-size: 0.7em;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.ui-slider-horizontal {
+    height: 7px;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    margin-left: -6px;
+    top: -6px;
+}
+.ui-slider-horizontal .ui-slider-range {
+    height: 100%;
+    top: 0;
+}
+.ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+.ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+.ui-widget-content {
+    background: #8f8f8f none repeat scroll 0 0;
+}
+.ui-widget-header {
+    background: #0084b5 none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+}
+.ui-corner-all {
+    border-radius: 4px;
+}
